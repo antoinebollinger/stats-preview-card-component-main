@@ -96,7 +96,7 @@ a {
 .main-text {
 	box-sizing: border-box;
 	width: 55%;
-	padding: 5% 10%;
+	padding: 1% 5%;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
