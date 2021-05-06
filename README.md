@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://ab-stats-preview-card-component-main.netlify.app/)
+- Solution URL: [![Netlify Status](https://api.netlify.com/api/v1/badges/f114e019-1cce-4510-b211-2fd1d394bac1/deploy-status)](https://ab-stats-preview-card-component-main.netlify.app/)
 
 ## My process
 
