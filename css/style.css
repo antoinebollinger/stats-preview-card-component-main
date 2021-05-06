@@ -1,0 +1,115 @@
+/* STYLE GENERAL
+================================================== */
+
+/* FONTS & COLORS */
+
+:root {
+	--primary-color: hsl(233, 47%, 7%);
+	--secondary-color: hsl(244, 38%, 16%);
+	--tertary-color: hsl(277, 64%, 61%);
+	--color-h1: hsl(0, 0%, 100%);
+	--color-h3: hsla(0, 0%, 100%, 0.6);
+	--color-p: hsla(0, 0%, 100%, 0.75);
+}
+
+/* GENERALITES */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,menu,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+	background-color: var(--primary-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 5%;
+}
+
+h1, h2 {
+	font-family: 'Inter', sans-serif;
+	color: var(--color-h1);
+}
+
+.stat-heading {
+	font-family: 'Lexend Deca', sans-serif;
+	color: var(--color-h3);
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+p {
+	color: var(--color-p);
+	line-height: 25px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.tertary {
+	color: var(--tertary-color);
+}
+
+.attribution {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	z-index: -1;
+}
+
+.main {
+	background-color: var(--secondary-color);
+	display: flex;
+	flex-direction: row-reverse;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.main-img {
+	width: 45%;
+	background-image: url('../images/image-header-desktop.jpg');
+	background-blend-mode: multiply;
+	background-color: var(--tertary-color);
+	background-position: center;
+	background-size: cover;
+}
+
+.main-text {
+	box-sizing: border-box;
+	width: 55%;
+	padding: 5% 10%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.main-text > div {
+	padding: 5% 0;
+}
+
+.main-stat {
+	display: flex;
+}
+
+.stat {
+	width: 33.33%;
+}

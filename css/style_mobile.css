@@ -1,0 +1,34 @@
+/* MOBILE */ 
+
+body {
+	height: auto;
+	flex-direction: column;
+}
+.main {
+	max-width: 375px;
+	flex-direction: column;
+	margin: 0 5% 50px 5%;
+}
+
+.main > div {
+	width: 100%;
+}
+
+.main-img {
+	height: 250px;
+}
+.main-text {
+	text-align: center;
+}
+.main-stat {
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-stat > div {
+	padding: 5% 0;
+}
+
+.attribution {
+	position: static;
+}
